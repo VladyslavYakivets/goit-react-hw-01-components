@@ -4,9 +4,9 @@ export const ProfileStyled = styled.div`
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-    background-color: lavender;
+    margin-bottom: 25px;
     border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 `;
 
 export const Description = styled.div`
@@ -42,7 +42,7 @@ export const UserLocation = styled.p`
 export const Stats = styled.ul`
     display: flex;
     justify-content: center;
-    gap: 20px;
+    border-top: 1px solid rgb(230 212 212);
 
 `;
 
@@ -55,6 +55,10 @@ export const StatsItem = styled.li`
 
   padding-top: 20px;
   padding-bottom: 20px;
+
+  &:not(:last-child){
+    border-right: 1px solid rgb(230 212 212);
+  }
 `;
 
 export const Label = styled.span`

@@ -7,7 +7,8 @@ export const Profile = ({
     location,
     avatar,
     stats
-}) => (
+}) => {
+return (
     <ProfileStyled>
   <Description>
     <Avatar
@@ -34,7 +35,7 @@ export const Profile = ({
     </StatsItem>
   </Stats>
 </ProfileStyled>
-)
+)};
 
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
