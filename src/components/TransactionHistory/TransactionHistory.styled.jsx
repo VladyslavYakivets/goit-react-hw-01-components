@@ -13,6 +13,14 @@ export const Thead = styled.thead``;
 export const TableHeader = styled.th`
   background-color: aqua;
   padding: 10px;
+
+  /* &:first-child {
+    border-top-left-radius: 10px;
+  }
+
+  &:last-child {
+    border-top-right-radius: 10px;
+  } */
 `;
 
 export const TableRow = styled.tr``;
